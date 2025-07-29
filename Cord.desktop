@@ -1,9 +1,0 @@
-[Desktop Entry]
-Type=Application
-Name=Cord
-Exec=%h/.local/cord/cord
-Comment=Discord web client wrapper with disabled telemetry and custom theme support
-Terminal=false
-Icon=discord
-Categories=GNOME;GTK;Network;
-PrefersNonDefaultGPU=false
