@@ -2,7 +2,8 @@
 
 npm install
 npm run make
-mv out/cord-linux-x64 $HOME/.local/cord
+mkdir $HOME/.local/cord
+cp -r out/cord-linux-x64/* $HOME/.local/cord
 echo "[Desktop Entry]
 Type=Application
 Name=Cord
