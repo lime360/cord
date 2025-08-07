@@ -21,6 +21,8 @@
   },
   "scripts": {
     "start": "electron-forge start",
-    "make": "electron-forge make --targets=@electron-forge/maker-zip"
+    "make": "electron-forge make --targets=@electron-forge/maker-zip",
+    "make-windows": "electron-forge make --targets=@electron-forge/maker-squirrel",
+    "make-mac": "electron-forge make --targets=@electron-forge/maker-dmg"
   }
 }
